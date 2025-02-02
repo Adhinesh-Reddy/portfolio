@@ -13,7 +13,6 @@ import { cn } from "@/utils/cn";
 export function Button({
   borderRadius = "1.75rem",
   children,
-  as: Component = "button",
   containerClassName,
   borderClassName,
   duration,
@@ -22,15 +21,14 @@ export function Button({
 }: {
   borderRadius?: string;
   children: React.ReactNode;
-  as?: any;
   containerClassName?: string;
   borderClassName?: string;
   duration?: number;
   className?: string;
-  [key: string]: any;
+  [key: string]: unknown;
 }) {
   return (
-    <Component
+    <button
       className={cn(
         "bg-transparent relative text-xl p-[1px] overflow-hidden md:col-span-2",
         containerClassName
@@ -65,7 +63,7 @@ export function Button({
       >
         {children}
       </div>
-    </Component>
+    </button>
   );
 }
 
@@ -80,9 +78,9 @@ export const MovingBorder = ({
   duration?: number;
   rx?: string;
   ry?: string;
-  [key: string]: any;
+  [key: string]: unknown;
 }) => {
-  const pathRef = useRef<any>(null);
+  const pathRef = useRef<SVGRectElement>(null);
   const progress = useMotionValue<number>(0);
 
   useAnimationFrame((time) => {
