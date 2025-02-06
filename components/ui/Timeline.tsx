@@ -6,12 +6,12 @@ import {
 } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 
-interface TimelineEntry {
+interface Entry {
   title: string;
   content: React.ReactNode;
 }
 
-export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
+export const Timeline = ({ data }: { data: Entry[] }) => {
   const ref = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
