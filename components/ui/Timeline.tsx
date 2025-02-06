@@ -1,4 +1,5 @@
 "use client";
+import { workExperience } from '@/data'
 import {
   useScroll,
   useTransform,
@@ -6,12 +7,7 @@ import {
 } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 
-interface Entry {
-  title: string;
-  content: React.ReactNode;
-}
-
-export const Timeline = ({ data }: { data: Entry[] }) => {
+export const Timeline = () => {
   const ref = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
@@ -41,7 +37,7 @@ export const Timeline = ({ data }: { data: Entry[] }) => {
             <span className="text-purple">work experience</span>
         </h1>
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
-        {data.map((item, index) => (
+        {workExperience.map((item, index) => (
           <div
             key={index}
             className="flex justify-start pt-10 md:pt-40 md:gap-10"
