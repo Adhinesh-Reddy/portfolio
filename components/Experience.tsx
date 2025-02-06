@@ -1,4 +1,3 @@
-import { workExperience } from '@/data'
 import React from 'react'
 // import { Button } from './ui/MovingBorders'
 import { Timeline } from "@/components/ui/Timeline";
@@ -7,7 +6,7 @@ const Experience = () => {
   return (
     <div className="py-20" id="testimonials">
         <div className="w-full">
-            <Timeline data={workExperience} />
+            <Timeline />
         </div>
 
         {/* <div className="w-full mt-12 grid lg:grid-cols-4 grid-col-1 gap-10">
