@@ -1,3 +1,4 @@
+import AboutMe from "@/components/AboutMe";
 import Approach from "@/components/Approach";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
@@ -14,13 +15,16 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
         <Hero />
+        <AboutMe />
+        <Experience />
         <Grid />
         <RecentProjects />
         <Clients />
-        <Experience />
         <Approach />
         <Footer />
       </div>
     </main>
   );
 }
+
+// add tracing beam
