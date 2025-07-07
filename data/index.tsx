@@ -1,5 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
+  {name: "Experience", link: "#experience"},
+  {name: "Education", link: "#education"},
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
@@ -204,33 +206,42 @@ export const socialMedia = [
 
 export const workExperience = [
   {
-    title: "Research Sofware Engineer",
+    title: "Full Stack Developer",
     content: (
       <div>
         <div className="flex justify-between pb-5">
           <p className="hidden md:block text-xl md:text-2xl font-normal text-purple dark:text-purple">
-            UF Health Cancer Center
+            UF Health
           </p>
           <p className="hidden md:block text-2xl md:text-2xl font-normal text-purple dark:text-purple">
-            December 2023 - Present
+            September 2023 - Present
           </p>
         </div>
 
         <ul className="list-disc pl-3 text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-8">
           <li>
-            Led the development of a ReactJS/NodeJS web application for medical image contouring, increasing Regions of Interest (ROI) precision by 20% and streamlining analysis workflow.
+            Led development of a medical web app using Spring Boot, ReactJS, and Oracle SQL, 
+            increasing ROI precision by 20% and optimizing analysis workflows for large datasets (~1TB) and image metadata storage.
           </li>
           <li>
-            Engineered real-time image interaction features, enabling video playback for ROI visualization across 700+ sequential frames.
+            Designed scalable REST-based microservices with Spring Framework, Spring Data JPA, Hibernate, and JDBC; enhanced
+            performance using Spring Security, OAuth2, and JWT for secure API access.
           </li>
           <li>
-            Architected backend with NodeJS and MongoDB, ensuring efficient handling of a large dataset (~10GB) and secure storage of contoured images and metadata.
+            Built PL/SQL procedures, triggers, and queries in Oracle DB to automate validation, aggregation, and secure storage of
+            contoured data, ensuring data integrity and fast access. 
           </li>
           <li>
-            Contributed to CI/CD pipeline using Git, resulting in 20% faster release cycles.
+            Improved inter-service communication with Spring Boot REST clients (RestTemplate/WebClient) and centralized 
+            routing/authentication using Spring Cloud Gateway and Resilience4j circuit breaker. 
           </li>
           <li>
-            Deployed models on AWS SageMaker, improving large-scale data processing speed by 25% with optimized cloud architecture leveraging IAM, EC2, and S3 services.
+            Configured Apache Kafka clusters for real-time health record streaming; enhanced monitoring and debugging using SLF4J,
+            Logback, Grafana, Prometheus, and log analysis with the ELK stack. 
+          </li>
+          <li>
+            Developed CI/CD workflows with GitHub Actions, Docker, Kubernetes, and Maven; used AWS Lambda, S3, RDS, EC2, IAM
+            for automation; ensured 90% test coverage with JUnit and Mockito. 
           </li>
         </ul>
         
@@ -253,16 +264,20 @@ export const workExperience = [
 
         <ul className="list-disc pl-3 text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-8">
           <li>
-            Developed an admin portal for crop data using HTML5, JavaScript, CSS, ReactJS and TypeScript, revolutionizing human interaction and implementing multi-language support for broader accessibility.
+            Developed an admin portal for crop data using HTML5, JavaScript, CSS, ReactJS and TypeScript, revolutionizing human
+            interaction and implementing multi-language support for broader accessibility. 
           </li>
           <li>
-            Implemented REST APIs to connect the application to the backend services and REST API calls to reduce load times resulting in 15% increase in page speed.
+           Implemented RESTful APIs to connect the application to the backend services and REST API calls to reduce load times
+            resulting in 15% increase in page speed. 
           </li>
           <li>
-            Optimized React rendering performance by implementing custom hooks, reducing unnecessary re-renders by 40% and improving overall application responsiveness.
+            Optimized React rendering performance by implementing custom hooks, reducing unnecessary re-renders by 40% and
+            improving overall application responsiveness. 
           </li>
           <li>
-            Leveraged Figma to craft intuitive UI/UX designs, significantly improving user experience by 30% and streamlining crop data visualization processes.
+            Leveraged Figma to craft intuitive UI/UX designs, significantly improving user experience by 30% and streamlining crop data
+            visualization processes. 
           </li>
         </ul>
         
@@ -270,4 +285,113 @@ export const workExperience = [
     ),
   }
 
+];
+
+const coursework1 = [
+  {
+    title: "Analysis of Algorithms",
+    link: "education"
+  },
+  {
+    title: "Advanced Data Structures",
+    link: ""
+  },
+  {
+    title: "Human Computer Interaction",
+    link: ""
+  },
+  {
+    title: "Computer Networks",
+    link: ""
+  },
+  {
+    title: "Computer and Information Security",
+    link: ""
+  },
+  {
+    title: "Software Engineering",
+    link: ""
+  },
+  {
+    title: "Math for Intelligent Systems",
+    link: ""
+  },
+]
+const coursework2 = [
+  {
+    title: "Data Structures and Algorithms",
+    link: "education"
+  },
+  {
+    title: "Operating Systems",
+    link: ""
+  },
+  {
+    title: "Computer Networks",
+    link: ""
+  },
+  {
+    title: "Database Management Systems",
+    link: ""
+  },
+  {
+    title: "Artificial Intelligence and Machine Learning",
+    link: ""
+  },
+  {
+    title: "Software Engineering",
+    link: ""
+  },
+  {
+    title: "Web Technologies",
+    link: ""
+  },
+  {
+    title: "Cloud Computing Fundamentals",
+    link: ""
+  }
+]
+
+export const tabs = [
+  {
+    title: "Graduate",
+    value: "graduate",
+    course: coursework1,
+    image: (
+      <img src="/UF.webp" alt="image" className="w-full h-full object-cover"/>
+    ),
+    content: (
+      <div>
+        <h1 className="font-bold text-2xl mb-4">
+          Master's in Computer and Information Science and Engineering at <span className="text-purple"> University of Florida</span>
+        </h1>
+        <p>
+          At the University of Florida, I have concentrated on mastering advanced concepts in algorithms, data science, and computer network security, 
+          while building a robust theoretical and practical foundation in distributed systems, machine learning, and cloud computing. 
+          The program's emphasis on cutting-edge technologies and complex problem-solving has equipped me with the tools to architect 
+          scalable systems and optimize computational efficiency in diverse environments.
+        </p>
+      </div>
+    ),
+  },
+  {
+    title: "Undergraduate",
+    value: "undergraduate",
+    course: coursework2,
+    image:(
+      <img src="/manipal.png" alt="image" className="w-full h-full object-cover"/>
+    ),
+    content: (
+      <div>
+        <h1 className="font-bold text-2xl mb-4">
+          Bachelor of Technology in Computer Science and Engineering at <span className="text-purple"> Manipal University</span>
+        </h1>
+        <p>
+          At Manipal University Jaipur, I focused on cultivating a strong foundational understanding of computer science, spanning both core theory and hands-on application. 
+          My academic journey emphasized data structures, algorithm design, and system architecture, while also enabling me to explore key areas like machine learning, database systems, and software engineering.
+          Through a combination of rigorous coursework and project-based learning, I developed the technical depth and problem-solving skills essential for building intelligent, scalable applications and contributing to multidisciplinary development teams.
+        </p>
+      </div>
+    ),
+  },
 ];

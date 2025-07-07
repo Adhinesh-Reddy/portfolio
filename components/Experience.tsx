@@ -5,7 +5,7 @@ import { Timeline } from "@/components/ui/Timeline";
 
 const Experience = () => {
   return (
-    <div className="py-20" id="Experience">
+    <div className="py-20" id="experience">
         <div className="w-full">
             <Timeline data={workExperience} />
         </div>
