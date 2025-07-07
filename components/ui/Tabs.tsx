@@ -16,8 +16,8 @@ type Tab = {
   title: string;
   value: string;
   course: coursework[];
-  image?: string | React.ReactNode | any;
-  content?: string | React.ReactNode | any;
+  image?: string | React.ReactNode;
+  content?: string | React.ReactNode;
 };
 
 export const Tabs = ({
