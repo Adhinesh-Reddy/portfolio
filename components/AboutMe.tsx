@@ -10,7 +10,7 @@ const AboutMe = () => {
             About Me
           </h1>
           <p className="text-white text-md md:text-lg mt-4 leading-relaxed">
-            I'm Sai Adhinesh Reddy Tatireddy, a passionate and results-driven Computer Science graduate student at the University of Florida, with a strong foundation in full-stack development, cloud-native applications, and generative AI. 
+            I&apos;m Sai Adhinesh Reddy Tatireddy, a passionate and result-driven Computer Science graduate student at the University of Florida, with a strong foundation in full&rsquo;stack development, cloud-native applications, and generative AI. 
             I bring hands-on experience in designing scalable web applications, building secure microservices, and deploying ML/LLM models for impactful real-world use cases.
           </p>
           <p className="text-white text-md md:text-lg mt-4 leading-relaxed">
