@@ -206,7 +206,7 @@ export const socialMedia = [
 
 export const workExperience = [
   {
-    title: "Full Stack Developer",
+    title: "Software Engineer",
     content: (
       <div>
         <div className="flex justify-between pb-5">
@@ -220,29 +220,24 @@ export const workExperience = [
 
         <ul className="list-disc pl-3 text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-8">
           <li>
-            Led development of a medical web app using Spring Boot, ReactJS, and Oracle SQL, 
-            increasing ROI precision by 20% and optimizing analysis workflows for large datasets (~1TB) and image metadata storage.
+            Developed web applications using frontend technologies like <strong>React.js, TypeScript, and Redux</strong> improving ROI precision by 20% and optimizing analysis workflows for 1TB-scale datasets and image metadata.
           </li>
           <li>
-            Designed scalable REST-based microservices with Spring Framework, Spring Data JPA, Hibernate, and JDBC; enhanced
-            performance using Spring Security, OAuth2, and JWT for secure API access.
+            Built backend services with <strong>Node.js (Express)</strong> and <strong>Oracle SQL</strong>, for robust data management and seamless API integration.
           </li>
           <li>
-            Built PL/SQL procedures, triggers, and queries in Oracle DB to automate validation, aggregation, and secure storage of
-            contoured data, ensuring data integrity and fast access. 
+            Designed responsive user interfaces in <strong>Figma</strong>, for seamless alignment between UI/UX design and frontend implementa-tion.
           </li>
           <li>
-            Improved inter-service communication with Spring Boot REST clients (RestTemplate/WebClient) and centralized 
-            routing/authentication using Spring Cloud Gateway and Resilience4j circuit breaker. 
+            Architected secure <strong>REST-based microservices</strong> with JWT and OAuth2 authentication; enhanced fault tolerance with retry logic and error handling.  
           </li>
           <li>
-            Configured Apache Kafka clusters for real-time health record streaming; enhanced monitoring and debugging using SLF4J,
-            Logback, Grafana, Prometheus, and log analysis with the ELK stack. 
+            Built <strong>CI/CD pipelines</strong> using <strong>GitHub Actions and Docker</strong>; deployed on <strong>AWS</strong> (Lambda, S3, RDS, EC2, IAM) in an <strong>Agile SCRUM environment</strong> and maintained observability with <strong>Prometheus, Grafana, ELK stack</strong>.
           </li>
           <li>
-            Developed CI/CD workflows with GitHub Actions, Docker, Kubernetes, and Maven; used AWS Lambda, S3, RDS, EC2, IAM
-            for automation; ensured 90% test coverage with JUnit and Mockito. 
+            Ensured robust code quality with comprehensive testing using <strong>React Testing Library</strong> and <strong>Jest</strong>, improving application relia-bility and maintainability by 90%.
           </li>
+
         </ul>
         
       </div>
@@ -250,7 +245,7 @@ export const workExperience = [
   },
 
   {
-    title: "Frontend Developer",
+    title: "Software Engineer",
     content: (
       <div>
         <div className="flex justify-between pb-5">
@@ -264,21 +259,24 @@ export const workExperience = [
 
         <ul className="list-disc pl-3 text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-8">
           <li>
-            Developed an admin portal for crop data using HTML5, JavaScript, CSS, ReactJS and TypeScript, revolutionizing human
-            interaction and implementing multi-language support for broader accessibility. 
+            Developed an admin portal for crop data using <strong>HTML5, JavaScript, CSS, ReactJS, and TypeScript</strong>, revolutionizing human interaction and implementing multi-language support for broader accessibility.
           </li>
           <li>
-           Implemented RESTful APIs to connect the application to the backend services and REST API calls to reduce load times
-            resulting in 15% increase in page speed. 
+            Implemented <strong>Redux</strong> for predictable state management, improving data consistency and scalability across the application.
           </li>
           <li>
-            Optimized React rendering performance by implementing custom hooks, reducing unnecessary re-renders by 40% and
-            improving overall application responsiveness. 
+            Implemented <strong>RESTful APIs</strong> to connect the application to backend services; optimized API calls, reducing load times and increasing page speed by 15%.
           </li>
           <li>
-            Leveraged Figma to craft intuitive UI/UX designs, significantly improving user experience by 30% and streamlining crop data
-            visualization processes. 
+            Optimized React rendering performance using <strong>custom hooks</strong>, reducing unnecessary re-renders by 40% and improving overall application responsiveness.
           </li>
+          <li>
+            Leveraged <strong>Figma</strong> to craft intuitive UI/UX designs, improving user experience by 30% and streamlining crop data visualization processes.
+          </li>
+          <li>
+            Utilized <strong>Postman</strong> for API testing and ensured high code quality with <strong>React Testing Library and Jest</strong>, improving reliability and reducing regressions.
+          </li>
+
         </ul>
         
       </div>
