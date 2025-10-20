@@ -219,25 +219,25 @@ export const workExperience = [
 
         <ul className="list-disc pl-3 text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-8">
           <li>
-            Developed web applications using frontend technologies like <strong>React.js, TypeScript, and Redux</strong> improving ROI precision by 20% and optimizing analysis workflows for 1TB-scale datasets and image metadata.
+            Developed and maintained web applications that improved ROI precision and optimized analysis workflows for large-scale datasets and image metadata.
           </li>
           <li>
-            Built backend services with <strong>Node.js (Express)</strong> and <strong>Oracle SQL</strong>, for robust data management and seamless API integration.
+            Built and supported backend services ensuring robust data management and seamless integration between different system components.
           </li>
           <li>
-            Designed responsive user interfaces in <strong>Figma</strong>, for seamless alignment between UI/UX design and frontend implementa-tion.
+            Designed responsive and user-friendly interfaces, ensuring close alignment between design vision and final implementation.
           </li>
           <li>
-            Architected secure <strong>REST-based microservices</strong> with JWT and OAuth2 authentication; enhanced fault tolerance with retry logic and error handling.  
+            Architected secure and reliable microservices with a focus on authentication, fault tolerance, and error handling.
           </li>
           <li>
-            Built <strong>CI/CD pipelines</strong> using <strong>GitHub Actions and Docker</strong>; deployed on <strong>AWS</strong> (Lambda, S3, RDS, EC2, IAM) in an <strong>Agile SCRUM environment</strong> and maintained observability with <strong>Prometheus, Grafana, ELK stack</strong>.
+            Automated the deployment process with continuous integration and delivery pipelines, and managed scalable cloud-based deployments within an Agile environment while maintaining strong system monitoring and observability.
           </li>
           <li>
-            Ensured robust code quality with comprehensive testing using <strong>React Testing Library</strong> and <strong>Jest</strong>, improving application relia-bility and maintainability by 90%.
+            Ensured high code quality through comprehensive testing and continuous improvement, significantly enhancing application reliability and maintainability.
           </li>
-
         </ul>
+
         
       </div>
     ),
@@ -258,25 +258,29 @@ export const workExperience = [
 
         <ul className="list-disc pl-3 text-neutral-800 dark:text-neutral-200 text-sm md:text-base font-normal mb-8">
           <li>
-            Developed an admin portal for crop data using <strong>HTML5, JavaScript, CSS, ReactJS, and TypeScript</strong>, revolutionizing human interaction and implementing multi-language support for broader accessibility.
+            Contributed to the development of <strong>Crop Darpan</strong>, an intelligent crop management platform designed to assist farmers and researchers with data-driven insights for better agricultural decision-making.
           </li>
           <li>
-            Implemented <strong>Redux</strong> for predictable state management, improving data consistency and scalability across the application.
+            Developed an admin portal for crop data, enhancing user interaction and enabling multi-language support for broader accessibility across diverse regions.
           </li>
           <li>
-            Implemented <strong>RESTful APIs</strong> to connect the application to backend services; optimized API calls, reducing load times and increasing page speed by 15%.
+            Improved application scalability and data consistency through effective state management and structured data flow.
           </li>
           <li>
-            Optimized React rendering performance using <strong>custom hooks</strong>, reducing unnecessary re-renders by 40% and improving overall application responsiveness.
+            Integrated the frontend with backend services to ensure efficient data exchange, reducing load times and increasing overall performance.
           </li>
           <li>
-            Leveraged <strong>Figma</strong> to craft intuitive UI/UX designs, improving user experience by 30% and streamlining crop data visualization processes.
+            Optimized rendering performance and responsiveness by refining component logic and minimizing redundant operations.
           </li>
           <li>
-            Utilized <strong>Postman</strong> for API testing and ensured high code quality with <strong>React Testing Library and Jest</strong>, improving reliability and reducing regressions.
+            Collaborated on user interface and experience design, improving usability and streamlining crop data visualization workflows.
           </li>
-
+          <li>
+            Conducted thorough testing and validation processes to ensure code quality, enhance reliability, and minimize regressions.
+          </li>
         </ul>
+
+
         
       </div>
     ),
